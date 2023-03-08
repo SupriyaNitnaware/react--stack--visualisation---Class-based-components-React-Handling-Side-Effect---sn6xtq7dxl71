@@ -21,7 +21,7 @@ function App() {
  const popFn = () => {
   if(arr.length == 0)
   {
-    window.alert('stack is empty');
+    window.alert('Stack is empty');
   }
   else{
     setPopInp(arr.shift())
@@ -30,7 +30,7 @@ function App() {
 
  const topFn = () => {
   if(arr.length == 0){
-    window.alert('stack is empty');
+    window.alert('Stack is empty');
   }
   else{
     setTopInp(arr[0]);
